@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin-bottom:100px;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 8px 12px;
+}
+
+.navbar_logo{
+    padding-left: 20px;
+}
+
+.navbar_logo h1 a{
+    color: rgba(22, 66, 148, 0.774);
+
+}
+
+.navbar_menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar_menu li {
+    padding: 35px 30px;
+}
+
+.navbar_menu li a {
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: black
+}
+.navbar_login {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar_login li {
+    padding: 8px 18px;
+}
+
+.navbar_login li a {
+    
+    font-size: 16px;
+    font-weight: bold;
+    color: black
+}
+.pic_wrap{
+    width:100%;
+    margin: 10px auto;
+    position: relative;
+    
+}
+.pic_wrap img{
+    width: 100%;
+    vertical-align: middle;
+    
+    
+}
+.pic_text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+.activity{
+    width: 735px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 나란히 놓기 해야함  */
+/* .overadopt  img{
+    width:45%;
+    height:auto;
+    filter: brightness(1);
+    float: left;
+}
+
+.overadopt img:hover{
+    filter: brightness(0.5);
+}
+.domeadopt img{
+    width:45%;
+    filter: brightness(1);
+    margin-left:10%;     
+}
+
+.domeadopt img:hover{
+    filter: brightness(0.5);
+
+} */
+
+.activity h2{
+    font-size: 30px;
+    color: black;
+    margin-top:60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.adopt_box{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.active_name{
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+.adopt_box img{
+    width: 80%;
+    filter: brightness(1);
+    transition: 1s;
+    
+}
+
+
+.adopt_box img:hover{
+    filter: brightness(0.5);
+    
+}
+.adopt_box img :hover{
+    filter: brightness(0.5);
+    
+}
+
+/* .adopt_box .read {
+    border: 2px solid #fdfbfb;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.adopt_box .read:hover {
+    
+    background: #fff;
+    color: #000;
+} */
+
+
+
+
+.clearfix{
+    clear: both;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    
+}
+
+
+.footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration:none;
+    
+}
+
